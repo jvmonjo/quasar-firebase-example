@@ -132,7 +132,7 @@ export default {
       order.client.email = this.$store.state.auth.user.email
       order.client.uid = this.$store.state.auth.user.uid
       order.items = this.items
-      order.to = ['jvmonjo@gmail.com']
+      order.to = ['infotsblades@gmail.com']
       order.message = {
         subject: 'New order placed!',
         text: message,

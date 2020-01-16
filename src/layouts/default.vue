@@ -31,13 +31,13 @@
         link
         inset-delimiter
       >
-        <q-item-label header>Essential Links</q-item-label>
+        <q-item-label header>Menu</q-item-label>
 
         <q-item :to="{ name: 'dashboard' }">
-          <q-item-label>Dashboard</q-item-label>
+          <q-item-label>Home</q-item-label>
         </q-item>
 
-        <q-item @click.native="signOut()">
+        <q-item class="cursor-pointer" @click.native="signOut()">
           <q-item-label>Sign Out</q-item-label>
         </q-item>
 
