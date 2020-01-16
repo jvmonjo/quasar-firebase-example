@@ -12,13 +12,14 @@
         :columns="columns"
         :pagination.sync="pagination"
         row-key="name"
+        dense
       >
         <template v-slot:body="props">
           <q-tr :props="props">
-            <q-td style='width: 50px' key="image" :props="props">
+            <q-td key="image" :props="props">
               <img class="product" :src="props.row.image" alt="">
             </q-td>
-            <q-td style='width: 50px' key="name" :props="props">
+            <q-td key="name" :props="props">
               {{ props.row.name }}
             </q-td>
             <q-td key="variant" :props="props">
@@ -73,10 +74,10 @@ export default {
       },
       products: [],
       columns: [
-        { name: 'image', headerStyle: 'width: 50px', style: 'width: 50px', align: 'center', label: 'Image', field: 'iamge', sortable: false },
-        { name: 'name', headerStyle: 'width: 50px', style: 'width: 50px', label: 'Name', field: 'name', sortable: true },
-        { name: 'variant', label: 'Variant', field: 'variant', sortable: false },
-        { name: 'price', label: 'Price', field: 'price', sortable: false },
+        { name: 'image', classes: 'ellipsis', style: 'max-width: 100px', headerClasses: 'bg-primary text-white', align: 'center', label: 'Image', field: 'iamge', sortable: false },
+        { name: 'name', classes: 'ellipsis', style: 'max-width: 100px', align: 'left', label: 'Name', field: 'name', sortable: true },
+        { name: 'variant', label: 'Variant', align: 'left', field: 'variant', sortable: false },
+        { name: 'price', label: 'Price', align: 'left', field: 'price', sortable: false },
         { name: 'quantity', align: 'left', label: 'Quantity', field: 'quantity', sortable: false },
         { name: 'total', align: 'left', label: 'Total', sortable: false }
       ]
@@ -185,7 +186,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .q-page{
   margin-bottom: 5rem;
 }
