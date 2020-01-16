@@ -13,16 +13,17 @@
         :pagination.sync="pagination"
         row-key="name"
         dense
+        wrap-cells
       >
         <template v-slot:body="props">
           <q-tr :props="props">
             <q-td key="image" :props="props">
               <img class="product" :src="props.row.image" alt="">
             </q-td>
-            <q-td key="name" :props="props">
+            <q-td key="name" style='max-width: 100px' :props="props">
               {{ props.row.name }}
             </q-td>
-            <q-td key="variant" :props="props">
+            <q-td key="variant" style='max-width: 50px' :props="props">
               {{props.row.variant}}
             </q-td>
             <q-td key="price" :props="props">
@@ -191,7 +192,7 @@ export default {
   margin-bottom: 5rem;
 }
 img.product {
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 #subtotal {
