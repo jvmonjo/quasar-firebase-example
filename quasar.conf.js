@@ -8,7 +8,8 @@ module.exports = function (ctx) {
       'axios',
       'firebase',
       'boot',
-      'i18n'
+      'i18n',
+      'reloadNewVersion'
     ],
     css: [
       'app.styl'
