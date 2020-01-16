@@ -59,7 +59,7 @@
 </template>
 
 <script>
-// import seedData from '../../data/products.json'
+import seedData from '../../data/products.json'
 export default {
   name: 'PageIndex',
 
@@ -67,8 +67,8 @@ export default {
     return {
       loading: false,
       pagination: {
-        sortBy: 'name',
-        descending: true,
+        // sortBy: '',
+        // descending: true,
         page: 1,
         rowsPerPage: 0
         // rowsNumber: xx if getting data from a server
@@ -77,7 +77,7 @@ export default {
       columns: [
         { name: 'image', classes: 'ellipsis', style: 'max-width: 100px', headerClasses: 'bg-primary text-white', align: 'center', label: 'Image', field: 'iamge', sortable: false },
         { name: 'name', classes: 'ellipsis', style: 'max-width: 100px', align: 'left', label: 'Name', field: 'name', sortable: true },
-        { name: 'variant', label: 'Variant', align: 'left', field: 'variant', sortable: false },
+        { name: 'variant', label: 'Variant', align: 'left', field: 'variant', sortable: true },
         { name: 'price', label: 'Price', align: 'left', field: 'price', sortable: false },
         { name: 'quantity', align: 'left', label: 'Quantity', field: 'quantity', sortable: false },
         { name: 'total', align: 'left', label: 'Total', sortable: false }
@@ -143,7 +143,7 @@ export default {
       const vm = this
       this.products = []
 
-      let collection = this.$firebase.firestore().collection('products')
+      let collection = this.$firebase.firestore().collection('products').orderBy('position', 'asc')
 
       collection.get()
         .then(querySnapshot => {
@@ -157,17 +157,17 @@ export default {
         })
         .catch(error => console.error(error))
     },
-    // seedData () {
-    //   let collection = this.$firebase.firestore().collection('products')
-    //   seedData.forEach(todo => {
-    //     collection.doc().set(todo)
-    //       .then(() => {
-    //         console.log('Created', todo.title)
-    //       })
-    //       .catch(error => console.error(error))
-    //   })
-    //   this.getData()
-    // },
+    seedData () {
+      let collection = this.$firebase.firestore().collection('products')
+      seedData.forEach(todo => {
+        collection.doc().set(todo)
+          .then(() => {
+            console.log('Created', todo.title)
+          })
+          .catch(error => console.error(error))
+      })
+      this.getData()
+    },
     placeOrder () {
       this.loading = true
       const vm = this
