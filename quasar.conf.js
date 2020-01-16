@@ -85,7 +85,8 @@ module.exports = function (ctx) {
       // Quasar plugins
       plugins: [
         'Notify',
-        'Loading'
+        'Loading',
+        'AddressbarColor'
       ],
       iconSet: 'ionicons-v4'
       // lang: 'de', // Quasar language

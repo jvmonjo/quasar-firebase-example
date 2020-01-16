@@ -1,7 +1,9 @@
 import Firebase from 'firebase/app'
 import 'firebase/auth'
+import { AddressbarColor } from 'quasar'
 
 export default ({ app, router, Vue, store }) => {
+  AddressbarColor.set('#6A5821')
   // Register the Firebase authentication listener
   Firebase.auth().onAuthStateChanged(user => {
     if (user) {
