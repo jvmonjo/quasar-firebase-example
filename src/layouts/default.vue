@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header>
+    <q-header elevated>
       <q-toolbar
         color="primary"
         :glossy="$q.theme === 'mat'"
@@ -17,7 +17,7 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar Firebase Example
+          TS Blades
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -55,7 +55,7 @@ export default {
   name: 'LayoutDefault',
   data () {
     return {
-      leftDrawerOpen: true
+      leftDrawerOpen: false
     }
   },
   methods: {

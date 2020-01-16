@@ -7,7 +7,8 @@ module.exports = function (ctx) {
       'auth',
       'axios',
       'firebase',
-      'boot'
+      'boot',
+      'i18n'
     ],
     css: [
       'app.styl'
@@ -69,7 +70,14 @@ module.exports = function (ctx) {
         'QPageContainer',
         'QSpinner',
         'QToolbar',
-        'QToolbarTitle'
+        'QToolbarTitle',
+        'QItemSection',
+        'QAvatar',
+        'QTable',
+        'QTh',
+        'QTr',
+        'QTd',
+        'QCheckbox'
       ],
       directives: [
         'Ripple'

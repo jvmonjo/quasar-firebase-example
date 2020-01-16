@@ -6,6 +6,7 @@ export default ({ app, router, Vue, store }) => {
   Firebase.auth().onAuthStateChanged(user => {
     if (user) {
       // Signed in. Let Vuex know.
+      // console.log('user', user)
       store.commit('auth/SET_USER', user)
       // The .catch ignore error if .replace is redirecting to dashboard and we
       // are already at that route.

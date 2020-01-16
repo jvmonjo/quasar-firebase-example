@@ -21,6 +21,11 @@ export default [
         path: '',
         name: 'dashboard',
         component: () => import('pages/index')
+      },
+      {
+        path: 'products',
+        name: 'products',
+        component: () => import('pages/Products')
       }
     ]
   },

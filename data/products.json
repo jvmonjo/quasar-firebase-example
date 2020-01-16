@@ -1,0 +1,752 @@
+[
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "TAN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "BLACK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "COYOTE BROWN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "CAMO",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "OD",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "ORANGE",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "GUM PINK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-RANGER EVO",
+    "variant": "GRIP RANGER GREEN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-ranger-evo.png?alt=media&token=f405c740-f388-4e35-884b-9d2c69ad0ee4"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "TAN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "BLACK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "COYOTE BROWN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "CAMO",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "OD",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "ORANGE",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ANGLIAN ARMY",
+    "variant": "GUM PINK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-anglian-army.png?alt=media&token=4a7dfca1-ccfa-4321-a0af-42ee3cc40000"
+  },
+  {
+    "name": "TS-ELITE",
+    "variant": "SAND GRIP",
+    "price": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-elite.png?alt=media&token=25b82ad7-3e05-4f68-a277-10eecf1b53ff"
+  },
+  {
+    "name": "TS-ELITE",
+    "variant": "RANGER GREEN GRIP",
+    "price": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-elite.png?alt=media&token=25b82ad7-3e05-4f68-a277-10eecf1b53ff"
+  },
+  {
+    "name": "TS-ELITE",
+    "variant": "ONIX GRIP",
+    "price": 7,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2Fts-elite.png?alt=media&token=25b82ad7-3e05-4f68-a277-10eecf1b53ff"
+  },
+  {
+    "name": "TS-DARK WOLF",
+    "variant": "ONIX GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-DARK%20WOLF.png?alt=media&token=692f24aa-953b-40fe-b688-9d298a9644eb"
+  },
+  {
+    "name": "TS-DARK WOLF",
+    "variant": "SAND GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-DARK%20WOLF.png?alt=media&token=692f24aa-953b-40fe-b688-9d298a9644eb"
+  },
+  {
+    "name": "TS-DARK WOLF",
+    "variant": "RANGER GREEN GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-DARK%20WOLF.png?alt=media&token=692f24aa-953b-40fe-b688-9d298a9644eb"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "TAN",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "BLACK",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "COYOTE BROWN",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "CAMO",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "OD",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "ORANGE",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-KUNAI",
+    "variant": "GUM PINK",
+    "price": 6.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-KUNAI.png?alt=media&token=2f037b9e-0eee-48c7-8aba-6ade0224b7c8"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "TAN",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "BLACK",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "COYOTE BROWN",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "CAMO",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "OD",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "ORANGE",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-COYOTE",
+    "variant": "GUM PINK",
+    "price": 9,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-COYOTE.png?alt=media&token=f064b6c1-2fc7-47dc-a57b-8e2134596441"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "TAN",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "BLACK",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "COYOTE BROWN",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "CAMO",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "OD",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "ORANGE",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "GUM PINK",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "ONIX GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "SAND GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-EL CORONEL G3",
+    "variant": "RANGER GREEN GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-EL%20CORONEL%20G3.png?alt=media&token=7aced63d-acf2-449e-9aea-f6fb66f1571f"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "TAN",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "BLACK",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "COYOTE BROWN",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "CAMO",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "OD",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "ORANGE",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "GUM PINK",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "ONIX GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "SAND GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-HUNTSMAN G3",
+    "variant": "RANGER GREEN GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-HUNTSMAN%20G3.png?alt=media&token=ab5a205e-b896-4c9f-b423-986249609932"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "TAN",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "BLACK",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "COYOTE BROWN",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "CAMO",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "OD",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "ORANGE",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "GUM PINK",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "ONIX GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "SAND GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-RAPTOR G3",
+    "variant": "RANGER GREEN GRIP",
+    "price": 9.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-RAPTOR%20G3.png?alt=media&token=b9bc0303-040f-4a47-9f55-f36367eca946"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "TAN",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "BLACK",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "COYOTE BROWN",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "CAMO",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "OD",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "ORANGE",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-JUNGLEMAN",
+    "variant": "GUM PINK",
+    "price": 20,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-JUNGLEMAN.png?alt=media&token=c5e5ae91-ed59-4bda-9d10-00ef3c12af3f"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "TAN",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "BLACK",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "COYOTE BROWN",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "CAMO",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "OD",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "ORANGE",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS-BLACK HAWK",
+    "variant": "GUM PINK",
+    "price": 26,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HAWK.png?alt=media&token=b5b75e4c-3c53-48de-bd8e-4988d9b02693"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "TAN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "BLACK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "COYOTE BROWN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "CAMO",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "OD",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "ORANGE",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "GUM PINK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "ONIX GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "SAND GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS- BLACK WIDOW EVO",
+    "variant": "RANGER GREEN GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20BLACK%20WIDOW%20EVO.png?alt=media&token=d0665a18-059a-43ef-a70b-dc7ec750ca08"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "TAN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "BLACK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "COYOTE BROWN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "CAMO",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "OD",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "ORANGE",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "GUM PINK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "ONIX GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "SAND GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-BLACK HORNET G3",
+    "variant": "RANGER GREEN GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-BLACK%20HORNET%20G3.png?alt=media&token=6444e6c2-56c9-4ed5-bce1-634935e23a9a"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "TAN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "BLACK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "COYOTE BROWN",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "CAMO",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "OD",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "ORANGE",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "GUM PINK",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "ONIX GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "SAND GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-CHACAL",
+    "variant": "RANGER GREEN GRIP",
+    "price": 7.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-CHACAL.png?alt=media&token=09e40679-2546-4ac0-b827-0cd104f8a62c"
+  },
+  {
+    "name": "TS-PATCH",
+    "variant": "TS-PATCH",
+    "price": 1.6,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-PATCH.png?alt=media&token=4b05fb58-c136-41e8-981c-6e4db33ae712"
+  },
+  {
+    "name": "TS- CAP",
+    "variant": "TS- CAP",
+    "price": 8.51,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20CAP.png?alt=media&token=cc3b0d51-ab1f-4ed5-b48b-ceccc5a16610"
+  },
+  {
+    "name": "TS- KARAMBIT HOLSTER",
+    "variant": "BLACK",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20KARAMBIT%20HOLSTER.png?alt=media&token=788d68f0-09e0-4f43-9a72-6fb5d7f20f55"
+  },
+  {
+    "name": "TS- KARAMBIT HOLSTER",
+    "variant": "OD",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20KARAMBIT%20HOLSTER-od.png?alt=media&token=9819da4b-1fd2-40b8-b2fa-12b7422d6c0e"
+  },
+  {
+    "name": "TS- KARAMBIT HOLSTER",
+    "variant": "TAN",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20KARAMBIT%20HOLSTER-tan.png?alt=media&token=d7cabca5-996b-4655-a594-7feff0369130"
+  },
+  {
+    "name": "TS- HOLSTER",
+    "variant": "BLACK",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20HOLSTER-blalck.png?alt=media&token=035fe8fe-5a56-4cfa-b3c0-8c69b2a0e129"
+  },
+  {
+    "name": "TS- HOLSTER",
+    "variant": "OD",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20HOLSTER-od.png?alt=media&token=35a2ae75-f5b0-4b18-8aa8-8b7dfead9444"
+  },
+  {
+    "name": "TS- HOLSTER",
+    "variant": "TAN",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20HOLSTER-tan.png?alt=media&token=82880b87-9b9a-4e16-8c22-aeea124a833d"
+  },
+  {
+    "name": "TS- HOLSTER",
+    "variant": "ARID",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20HOLSTER-arid.png?alt=media&token=5ae922bd-a173-4d86-aec4-d2c4a9ad5e6d"
+  },
+  {
+    "name": "TS- HOLSTER",
+    "variant": "WOLF GREY",
+    "price": 7.41,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FTS-%20HOLSTER-wolf-grey.png?alt=media&token=7df45d18-b009-48ec-a049-5e9512b9cd79"
+  },
+  {
+    "name": "SPARE GRIPS (WITH SCREWS)",
+    "variant": "ONIX GRIP",
+    "price": 2.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FSPARE%20GRIPS%20WITH%20SCREWS.png?alt=media&token=1a66ca5c-f761-400e-8fdb-8914d96c5e70"
+  },
+  {
+    "name": "SPARE GRIPS (WITH SCREWS)",
+    "variant": "SAND GRIP",
+    "price": 2.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FSPARE%20GRIPS%20WITH%20SCREWS.png?alt=media&token=1a66ca5c-f761-400e-8fdb-8914d96c5e70"
+  },
+  {
+    "name": "SPARE GRIPS (WITH SCREWS)",
+    "variant": "RANGER GREEN GRIP",
+    "price": 2.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FSPARE%20GRIPS%20WITH%20SCREWS.png?alt=media&token=1a66ca5c-f761-400e-8fdb-8914d96c5e70"
+  },
+  {
+    "name": "SPARE KARAMBIT GRIPS (WITH SCREWS)",
+    "variant": "ONIX GRIP",
+    "price": 2.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FSPARE%20KARAMBIT%20GRIPS%20WITH%20SCREWS.png?alt=media&token=8dac0e9c-6c9a-4566-af33-8f064604f504"
+  },
+  {
+    "name": "SPARE KARAMBIT GRIPS (WITH SCREWS)",
+    "variant": "SAND GRIP",
+    "price": 2.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FSPARE%20KARAMBIT%20GRIPS%20WITH%20SCREWS.png?alt=media&token=8dac0e9c-6c9a-4566-af33-8f064604f504"
+  },
+  {
+    "name": "SPARE KARAMBIT GRIPS (WITH SCREWS)",
+    "variant": "RANGER GREEN GRIP",
+    "price": 2.5,
+    "image": "https://firebasestorage.googleapis.com/v0/b/tsblades-app.appspot.com/o/products%2FSPARE%20KARAMBIT%20GRIPS%20WITH%20SCREWS.png?alt=media&token=8dac0e9c-6c9a-4566-af33-8f064604f504"
+  }
+]

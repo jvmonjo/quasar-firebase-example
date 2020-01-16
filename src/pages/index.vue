@@ -2,27 +2,59 @@
   <q-page padding>
 
     <div v-if="loading">
-      <q-spinner /> Fetching data...
+      <q-spinner size="5.5em" />
     </div>
 
     <div v-else>
-      <q-list>
-        <q-item-label header>Todos</q-item-label>
-        <q-item
-          v-for="(todo, index) in todos"
-          :key="index"
-        >
-          <q-item-label>
-            {{ todo.title }}
-          </q-item-label>
-        </q-item>
-      </q-list>
-    </div>
+      <q-table
+        title="Products"
+        :data="products"
+        :columns="columns"
+        :pagination.sync="pagination"
+        row-key="name"
+      >
+        <template v-slot:body="props">
+          <q-tr :props="props">
+            <q-td style='width: 50px' key="image" :props="props">
+              <img class="product" :src="props.row.image" alt="">
+            </q-td>
+            <q-td style='width: 50px' key="name" :props="props">
+              {{ props.row.name }}
+            </q-td>
+            <q-td key="variant" :props="props">
+              {{props.row.variant}}
+            </q-td>
+            <q-td key="price" :props="props">
+              {{$n(props.row.price, 'currency')}}
+            </q-td>
+            <q-td key="quantity" :props="props">
+              <q-input
+                v-model.number="props.row.quantity"
+                type="number"
+                filled
+                style="max-width: 50px"
+              />
+            </q-td>
+            <q-td key="total" :props="props">
+              <span v-if="props.row.quantity > 0">{{$n(props.row.price * props.row.quantity, 'currency')}}</span>
+            </q-td>
+          </q-tr>
+        </template>
+      </q-table>
+      <div id="subtotal" class="fixed-bottom">
+        <q-btn :loading="loading" @click.native="placeOrder" :disable="!items.length > 0" flat>Place Order</q-btn>
+        <span class="float-right" v-if="items.length > 0">Subtotal {{$n(total, 'currency')}}</span>
+      </div>
+      <div v-for="(product, index) in items"
+          :key="index">
+        <img :src="product.image">
+        <h2>{{ product.name }}</h2>
+      </div>
 
+    </div>
     <q-btn
-      v-if="!todos.length && !loading"
+      v-if="!products.length && !loading"
       label="Seed Data"
-      color="tertiary"
       class="q-mt-md"
       @click="seedData()"
     />
@@ -30,46 +62,111 @@
   </q-page>
 </template>
 
-<style>
-</style>
-
 <script>
-import seedData from '../../data/todos.json'
-
+import seedData from '../../data/products.json'
 export default {
   name: 'PageIndex',
 
   data () {
     return {
-      loading: true,
-      todos: []
+      loading: false,
+      pagination: {
+        sortBy: 'name',
+        descending: true,
+        page: 1,
+        rowsPerPage: 0
+        // rowsNumber: xx if getting data from a server
+      },
+      products: [],
+      columns: [
+        { name: 'image', headerStyle: 'width: 50px', style: 'width: 50px', align: 'center', label: 'Image', field: 'iamge', sortable: false },
+        { name: 'name', headerStyle: 'width: 50px', style: 'width: 50px', label: 'Name', field: 'name', sortable: true },
+        { name: 'variant', label: 'Variant', field: 'variant', sortable: false },
+        { name: 'price', label: 'Price', field: 'price', sortable: false },
+        { name: 'quantity', align: 'left', label: 'Quantity', field: 'quantity', sortable: false },
+        { name: 'total', align: 'left', label: 'Total', sortable: false }
+      ]
     }
   },
 
   created () {
     this.getData()
   },
+  computed: {
+    items () {
+      const items = this.products.filter(product => {
+        return product.quantity > 0
+      })
+      console.log('items', items)
+      return items
+    },
+    total () {
+      return this.items.map(item => item.price * item.quantity).reduce((prev, curr) => prev + curr)
+    },
+    order () {
+      let itemsString = ''
+      this.items.forEach(item => {
+        const line = `
+        <img src="${item.image}"><br>
+        <h2>${item.name}</h2>
+        <h3>Variant: ${item.variant}<h3>
+        <p>
+          Quantity: ${item.quantity}<br>
+          Price: ${item.price}
+        </p>
+        <hr>
+        `
+        itemsString += line
+      })
 
+      const order = {}
+      order.client = {}
+      order.client.name = this.$store.state.auth.user.displayName
+      order.client.email = this.$store.state.auth.user.email
+      order.client.uid = this.$store.state.auth.user.uid
+      order.items = this.items
+      order.to = ['jvmonjo@gmail.com']
+      order.message = {
+        subject: 'New order placed!',
+        text: `Name: ${this.$store.state.auth.user.displayName}<br>
+        Email: ${this.$store.state.auth.user.email}<br>
+        <h1>
+          Order:
+        </h1>
+        <div>${itemsString}</div>
+        `,
+        html: `Name: ${this.$store.state.auth.user.displayName}<br>
+        Email: ${this.$store.state.auth.user.email}<br>
+        <p>
+          Order: ${itemsString}
+        </p>
+        `
+      }
+      return order
+    }
+  },
   methods: {
     getData () {
       this.loading = true
-      this.todos = []
+      const vm = this
+      this.products = []
 
-      let collection = this.$firebase.firestore().collection('todos')
+      let collection = this.$firebase.firestore().collection('products')
 
       collection.get()
         .then(querySnapshot => {
-          querySnapshot.forEach(todo => {
-            this.todos.push(todo.data())
+          querySnapshot.forEach(product => {
+            let data = {}
+            data = {...product.data()}
+            data.quantity = 0
+            this.products.push(data)
           })
-          this.loading = false
+          vm.loading = false
         })
         .catch(error => console.error(error))
     },
-
     seedData () {
-      let collection = this.$firebase.firestore().collection('todos')
-
+      let collection = this.$firebase.firestore().collection('products')
       seedData.forEach(todo => {
         collection.doc().set(todo)
           .then(() => {
@@ -77,9 +174,39 @@ export default {
           })
           .catch(error => console.error(error))
       })
-
       this.getData()
+    },
+    placeOrder () {
+      this.loading = true
+      const vm = this
+      let orders = this.$firebase.firestore().collection('orders')
+      orders.add(this.order)
+        .then(function (docRef) {
+          console.log('Document written with ID: ', docRef.id)
+          vm.loading = false
+          vm.$q.notify('Order placed succesfully')
+        })
+        .catch(function (error) {
+          console.error('Error adding document: ', error)
+          vm.loading = false
+        })
     }
   }
 }
 </script>
+
+<style>
+.q-page{
+  margin-bottom: 5rem;
+}
+img.product {
+  width: 100px;
+  height: auto;
+}
+#subtotal {
+  min-height: 80px;
+  background-color: rgba(255,255,255,0.8);
+  padding: 2rem;
+  border-top: 1px solid black;
+}
+</style>
