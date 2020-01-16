@@ -45,25 +45,19 @@
         <q-btn :loading="loading" @click.native="placeOrder" :disable="!items.length > 0" flat>Place Order</q-btn>
         <span class="float-right" v-if="items.length > 0">Subtotal {{$n(total, 'currency')}}</span>
       </div>
-      <div v-for="(product, index) in items"
-          :key="index">
-        <img :src="product.image">
-        <h2>{{ product.name }}</h2>
-      </div>
-
     </div>
-    <q-btn
+    <!-- <q-btn
       v-if="!products.length && !loading"
       label="Seed Data"
       class="q-mt-md"
       @click="seedData()"
-    />
+    /> -->
 
   </q-page>
 </template>
 
 <script>
-import seedData from '../../data/products.json'
+// import seedData from '../../data/products.json'
 export default {
   name: 'PageIndex',
 
@@ -161,17 +155,17 @@ export default {
         })
         .catch(error => console.error(error))
     },
-    seedData () {
-      let collection = this.$firebase.firestore().collection('products')
-      seedData.forEach(todo => {
-        collection.doc().set(todo)
-          .then(() => {
-            console.log('Created', todo.title)
-          })
-          .catch(error => console.error(error))
-      })
-      this.getData()
-    },
+    // seedData () {
+    //   let collection = this.$firebase.firestore().collection('products')
+    //   seedData.forEach(todo => {
+    //     collection.doc().set(todo)
+    //       .then(() => {
+    //         console.log('Created', todo.title)
+    //       })
+    //       .catch(error => console.error(error))
+    //   })
+    //   this.getData()
+    // },
     placeOrder () {
       this.loading = true
       const vm = this
