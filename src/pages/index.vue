@@ -118,7 +118,14 @@ export default {
         `
         itemsString += line
       })
-
+      const message = `
+        Name: ${this.$store.state.auth.user.displayName}<br>
+        Email: ${this.$store.state.auth.user.email}<br>
+        <h1>
+          Order:
+        </h1>
+        <div>${itemsString}</div>
+        `
       const order = {}
       order.client = {}
       order.client.name = this.$store.state.auth.user.displayName
@@ -128,19 +135,8 @@ export default {
       order.to = ['jvmonjo@gmail.com']
       order.message = {
         subject: 'New order placed!',
-        text: `Name: ${this.$store.state.auth.user.displayName}<br>
-        Email: ${this.$store.state.auth.user.email}<br>
-        <h1>
-          Order:
-        </h1>
-        <div>${itemsString}</div>
-        `,
-        html: `Name: ${this.$store.state.auth.user.displayName}<br>
-        Email: ${this.$store.state.auth.user.email}<br>
-        <p>
-          Order: ${itemsString}
-        </p>
-        `
+        text: message,
+        html: message
       }
       return order
     }
