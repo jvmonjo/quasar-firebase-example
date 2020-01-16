@@ -95,12 +95,12 @@ module.exports = function (ctx) {
     animations: [
     ],
     pwa: {
-      // workboxPluginMode: 'InjectManifest',
+      workboxPluginMode: 'InjectManifest',
       // workboxOptions: {},
       manifest: {
-        // name: 'Quasar App',
-        // short_name: 'Quasar-PWA',
-        // description: 'Best PWA App in town!',
+        name: 'TS Blades',
+        short_name: 'TS Blades',
+        description: 'Place your TS Blades order',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
