@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page padding class="bg-grey-2">
 
     <div v-if="loading">
       <q-spinner size="5.5em" />
