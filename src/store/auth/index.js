@@ -30,18 +30,18 @@ export default {
   },
 
   actions: {
-    async signIn ({ commit }, payload) {
-      let email = payload.email
-      let password = payload.password
+    // async signIn ({ commit }, payload) {
+    //   let email = payload.email
+    //   let password = payload.password
 
-      await Firebase.auth().signInWithEmailAndPassword(email, password)
-        .then(user => {
-          commit('SET_USER', user)
-        })
-        .catch(error => {
-          throw error
-        })
-    },
+    //   await Firebase.auth().signInWithEmailAndPassword(email, password)
+    //     .then(user => {
+    //       commit('SET_USER', user)
+    //     })
+    //     .catch(error => {
+    //       throw error
+    //     })
+    // },
 
     async signOut ({ commit }) {
       await Firebase.auth().signOut()

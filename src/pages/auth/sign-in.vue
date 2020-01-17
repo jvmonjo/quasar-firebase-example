@@ -91,7 +91,7 @@ export default {
       }
       vm.$firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
-          console.log('user', user)
+          // console.log('user', user)
           const userObj = {...user}
           vm.$store.commit('auth/SET_USER', userObj)
         }
