@@ -5,8 +5,9 @@
 </template>
 
 <script>
-import * as firebaseui from 'firebaseui'
-import 'firebaseui/dist/firebaseui.css'
+const firebaseui = require('components/firebaseui/esm__en')
+
+import 'components/firebaseui/firebaseui.css'
 
 export default {
   name: 'PageSignIn',
@@ -81,6 +82,7 @@ export default {
         // The start method will wait until the DOM is loaded.
       }
       ui.start('#firebaseui-auth-container', uiConfig)
+      console.log('ui', ui)
       if (ui.isPendingRedirect()) {
         console.log('pending redirect')
         vm.$q.loading.show()
