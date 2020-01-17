@@ -43,9 +43,9 @@
           </q-tr>
         </template>
       </q-table>
-      <div id="subtotal" class="fixed-bottom">
-        <q-btn :loading="loading" @click.native="placeOrder" :disable="!items.length > 0" color="primary">Place Order</q-btn>
-        <span class="float-right" v-if="items.length > 0">Subtotal {{$n(total, 'currency')}}</span>
+      <div id="subtotal" class="fixed-bottom text-right">
+        <q-btn style="margin-right: 1rem" :loading="loading" @click.native="placeOrder" :disable="!items.length > 0" color="primary">Place Order</q-btn>
+        <span v-if="items.length > 0">Subtotal {{$n(total, 'currency')}}</span>
       </div>
     </div>
     <!-- <q-btn
