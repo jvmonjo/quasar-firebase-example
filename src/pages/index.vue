@@ -93,7 +93,7 @@ export default {
       const items = this.products.filter(product => {
         return product.quantity > 0
       })
-      console.log('items', items)
+      // console.log('items', items)
       return items
     },
     total () {
