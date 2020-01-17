@@ -81,8 +81,10 @@ export default {
         ui = new firebaseui.auth.AuthUI(vm.$firebase.auth())
         // The start method will wait until the DOM is loaded.
       }
-      ui.start('#firebaseui-auth-container', uiConfig)
-      console.log('ui', ui)
+      const wrapper = document.querySelector('#firebaseui-auth-container')
+      if (wrapper) {
+        ui.start('#firebaseui-auth-container', uiConfig)
+      }
       if (ui.isPendingRedirect()) {
         console.log('pending redirect')
         vm.$q.loading.show()
